@@ -37,7 +37,7 @@ import java.util.zip.InflaterInputStream;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class IOUtilsMultithreaded {
+public class IOUtilsMultithreadedTest {
     long seed = 1;
 
     @BeforeEach
