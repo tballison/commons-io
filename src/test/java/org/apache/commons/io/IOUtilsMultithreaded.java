@@ -73,6 +73,7 @@ public class IOUtilsMultithreaded {
                             for (int skipIndex = 0; skipIndex < skips.length; skipIndex++) {
                                 try {
                                     IOUtils.skipFully(is, skips[skipIndex]);
+                                    //IOUtils.readFully(is, skips[skipIndex]);
                                     int c = is.read();
                                     assertEquals(expected[skipIndex], c,
                                             "failed on seed=" + seed + " iteration=" + iteration);
